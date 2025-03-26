@@ -29,7 +29,7 @@ const CONFIG = {
 	weatherKey: 'https://api.openweathermap.org/data/2.5/weather?lat=-23.420999&lon=-51.933056&units=metric&lang=pt_br&appid=4aacab47a34cdd0baac1f6cf5ea060e1', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '-23.420999',
@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Google Doc',
+			icon: 'book',
+			link: 'https://docs.google.com',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'bolt',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Painel Email',
+					link: 'https://painel.bitsafeti.com.br',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Painel Acronis',
+					link: 'cloud.bitsafeti.com.br',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'DLtec',
+					link: 'https://www.dltec.com.br/login',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Faculdade',
+					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Milvus',
+					link: 'https://app.milvus.com.br/login',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Bitsac',
+					link: 'https://new.bitsac.com.br/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Email',
+					link: 'https://webmail.bitsafeti.com.br/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'ChatGPT',
+					link: 'https://chatgpt.com',
 				},
 			],
 		},
