@@ -53,7 +53,6 @@ function getWeather(latitude, longitude) {
 		.then(function() {
 			displayWeather();
 		});
-
 }
 
 function displayWeather() {
