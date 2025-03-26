@@ -38,29 +38,21 @@ function setPosition(position) {
 }
 
 function getWeather(latitude, longitude) {
-    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
-    
-    fetch(api)
-        .then(function(response) {
-            return response.json();  // Retorna a Promise com o corpo da resposta convertido para JSON
-        })
-        .then(function(data) {
-            // Verifique se "data.main" existe
-            if (data.main) {
-                let celsius = Math.floor(data.main.temp - KELVIN);
-                weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
-                weather.description = data.weather[0].description;
-                weather.iconId = data.weather[0].icon;
-            } else {
-                console.error("Erro: Dados não encontrados na resposta da API.");
-            }
-        })
-        .then(function() {
-            displayWeather();  // Exibe o clima na interface do usuário
-        })
-        .catch(function(error) {
-            console.error("Erro na requisição ou no processamento dos dados:", error);
-        });
+	let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
+	fetch(api)
+		.then(function(response) {
+			let data = response.json();
+			return data;
+		})
+		.then(function(data) {
+			let celsius = Math.floor(data.main.temp - KELVIN);
+			weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
+			weather.description = data.weather[0].description;
+			weather.iconId = data.weather[0].icon;
+		})
+		.then(function() {
+			displayWeather();
+		});
 
 }
 
