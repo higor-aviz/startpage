@@ -135,29 +135,29 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'bolt',
+			icon: 'coffe',
 			id: '1',
 			links: [
 				{
-					name: 'Painel Email',
-					link: 'https://painel.bitsafeti.com.br',
+					name: 'University',
+					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
 				},
 				{
-					name: 'Painel Acronis',
-					link: 'cloud.bitsafeti.com.br',
+					name: 'Tryhackme',
+					link: 'https://tryhackme.com/',
 				},
 				{
-					name: 'DLtec',
+					name: 'Dltec',
 					link: 'https://www.dltec.com.br/login',
 				},
 				{
-					name: 'Faculdade',
-					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
+					name: 'Udemy',
+					link: 'https://www.udemy.com/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'shield',
 			id: '2',
 			links: [
 				{
@@ -169,12 +169,12 @@ const CONFIG = {
 					link: 'https://new.bitsac.com.br/',
 				},
 				{
-					name: 'Email',
-					link: 'https://webmail.bitsafeti.com.br/',
+					name: 'Email Panel',
+					link: 'https://painel.bitsafeti.com.br',
 				},
 				{
-					name: 'ChatGPT',
-					link: 'https://chatgpt.com',
+					name: 'Acronis Panel',
+					link: 'cloud.bitsafeti.com.br',
 				},
 			],
 		},
