@@ -38,21 +38,28 @@ function setPosition(position) {
 }
 
 function getWeather(latitude, longitude) {
-	let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
-	fetch(api)
-		.then(function(response) {
-			let data = response.json();
-			return data;
-		})
-		.then(function(data) {
-			let celsius = Math.floor(data.main.temp - KELVIN);
-			weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
-			weather.description = data.weather[0].description;
-			weather.iconId = data.weather[0].icon;
-		})
-		.then(function() {
-			displayWeather();
-		});
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
+
+    fetch(api)
+        .then(response => response.json()) // Converte a resposta para JSON
+        .then(data => {
+            console.log("API Response:", data); // <-- Exibe os dados retornados pela API
+
+            if (!data.main) { // Se "main" não existir, houve um erro na resposta
+                console.error("Erro ao obter dados do clima:", data);
+                return;
+            }
+
+            let celsius = Math.floor(data.main.temp - KELVIN);
+            weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
+            weather.description = data.weather[0].description;
+            weather.iconId = data.weather[0].icon;
+
+            displayWeather();
+        })
+        .catch(error => {
+            console.error("Erro na requisição:", error);
+        });
 }
 
 function displayWeather() {
