@@ -6,7 +6,7 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /* Font Import */
 
 :root {
   /* Font Size */
@@ -37,7 +37,7 @@
   /* Dark Colors  */
   --accent: #57a0d9; /* Hover color */
   --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --cards: #242424; /* Cards color */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
