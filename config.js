@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'https://api.openweathermap.org/data/2.5/weather?lat=-23.420999&lon=-51.933056&units=metric&lang=pt_br&appid=4aacab47a34cdd0baac1f6cf5ea060e1', // Write here your API Key
+	weatherKey: '4aacab47a34cdd0baac1f6cf5ea060e1', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
