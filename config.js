@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Google Doc',
-			icon: 'book',
-			link: 'https://docs.google.com',
+			name: 'RaspberryPI',
+			icon: 'grape',
+			link: 'http://100.70.131.26',
 		},
 		{
 			id: '5',
@@ -143,16 +143,16 @@ const CONFIG = {
 					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
 				},
 				{
-					name: 'Tryhackme',
-					link: 'https://tryhackme.com/',
-				},
-				{
 					name: 'Dltec',
 					link: 'https://www.dltec.com.br/login',
 				},
 				{
-					name: 'Udemy',
-					link: 'https://www.udemy.com/',
+					name: 'TryHackme',
+					link: 'https://tryhackme.com/',
+				},
+				{
+					name: 'Google Docs',
+					link: 'https://docs.google.com',
 				},
 			],
 		},
@@ -166,7 +166,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Bitsac',
-					link: 'https://new.bitsac.com.br/',
+					link: 'https://new.bitsac.com.br/login',
 				},
 				{
 					name: 'Email Panel',
@@ -174,7 +174,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Acronis Panel',
-					link: 'cloud.bitsafeti.com.br',
+					link: 'https://cloud.bitsafeti.com.br',
 				},
 			],
 		},
