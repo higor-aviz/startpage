@@ -139,15 +139,37 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
+					name: 'Github',
+					link: 'https://github.com/',
+				},
+				{
+					name: 'Reddit',
+					link: 'https://reddit.com/',
+				},
+				{
+					name: 'ChatGPT',
+					link: 'https://ChatGPT',
+				},
+				{
+					name: 'RaspberryPI',
+					link: 'http://100.70.131.26',
+				},
+			],
+		},
+		{
+			icon: 'university',
+			id: '2',
+			links: [
+				{
 					name: 'University',
 					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
 				},
 				{
-					name: 'Dltec',
+					name: 'DLtec',
 					link: 'https://www.dltec.com.br/login',
 				},
 				{
-					name: 'TryHackme',
+					name: 'Tryhackme',
 					link: 'https://tryhackme.com/',
 				},
 				{
@@ -156,9 +178,13 @@ const CONFIG = {
 				},
 			],
 		},
+	],
+
+	// Second Links Container
+	secondListsContainer: [
 		{
 			icon: 'shield',
-			id: '2',
+			id: '1',
 			links: [
 				{
 					name: 'Milvus',
@@ -169,60 +195,34 @@ const CONFIG = {
 					link: 'https://new.bitsac.com.br/login',
 				},
 				{
-					name: 'Email Panel',
-					link: 'https://painel.bitsafeti.com.br',
+					name: 'Email',
+					link: 'https://webmail.bitsafeti.com.br',
 				},
 				{
-					name: 'Acronis Panel',
-					link: 'https://cloud.bitsafeti.com.br',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Zabbix',
+					link: 'http://172.16.10.82/zabbix/',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'castle',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Painel Email',
+					link: 'https://painel.bitsafeti.com.br/',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Painel Acronis',
+					link: 'https://cloud.bitsafeti.com.br/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Painel Bitdefender',
+					link: 'https://gravityzone.bitdefender.com/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Painel Ruije',
+					link: 'https://cloud-la.ruijienetworks.com/',
 				},
 			],
 		},
