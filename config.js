@@ -148,7 +148,7 @@ const CONFIG = {
 				},
 				{
 					name: 'ChatGPT',
-					link: 'https://ChatGPT',
+					link: 'https://chatgpt.com',
 				},
 				{
 					name: 'RaspberryPI',
