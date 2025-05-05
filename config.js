@@ -65,15 +65,15 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'ChatGPT',
-			icon: 'bot',
-			link: 'https://chatgpt.com',
+			name: 'TodoIst',
+			icon: 'trello',
+			link: 'https://app.todoist.com/app/projects/active',
 		},
 		{
 			id: '4',
-			name: 'RaspberryPI',
-			icon: 'grape',
-			link: 'http://100.70.131.26',
+			name: 'ChatGPT',
+			icon: 'bot',
+			link: 'https://chatgpt.com',
 		},
 		{
 			id: '5',
@@ -139,42 +139,42 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Github',
-					link: 'https://github.com/',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://reddit.com/',
-				},
-				{
-					name: 'ChatGPT',
-					link: 'https://chatgpt.com',
-				},
-				{
-					name: 'RaspberryPI',
-					link: 'http://100.70.131.26',
-				},
-			],
-		},
-		{
-			icon: 'university',
-			id: '2',
-			links: [
-				{
 					name: 'University',
 					link: 'https://uninga.jacad.com.br/academico/aluno-v2/login',
+				},
+				{
+					name: 'Cisco Academy',
+					link: 'https://www.netacad.com/pt/catalogs/learn',
 				},
 				{
 					name: 'DLtec',
 					link: 'https://www.dltec.com.br/login',
 				},
 				{
-					name: 'Tryhackme',
-					link: 'https://tryhackme.com/',
-				},
-				{
 					name: 'Google Docs',
 					link: 'https://docs.google.com',
+				},
+			],
+		},
+		{
+			icon: 'shield',
+			id: '2',
+			links: [
+				{
+					name: 'Milvus',
+					link: 'https://app.milvus.com.br/login',
+				},
+				{
+					name: 'Bitsac',
+					link: 'https://new.bitsac.com.br/login',
+				},
+				{
+					name: 'Email',
+					link: 'https://webmail.bitsafeti.com.br',
+				},
+				{
+					name: 'Zabbix',
+					link: 'http://172.16.10.82/zabbix/',
 				},
 			],
 		},
