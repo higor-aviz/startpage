@@ -59,15 +59,15 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Pinterest',
+			icon: 'pin',
+			link: 'https://br.pinterest.com',
 		},
 		{
 			id: '3',
-			name: 'TodoIst',
-			icon: 'trello',
-			link: 'https://app.todoist.com/app/projects/active',
+			name: 'Books',
+			icon: 'library-big',
+			link: 'https://openlibrary.org',
 		},
 		{
 			id: '4',
@@ -166,7 +166,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Bitsac',
-					link: 'https://new.bitsac.com.br/login',
+					link: 'https://suite.bitsac.com.br',
 				},
 				{
 					name: 'Email',
